@@ -1,0 +1,65 @@
+# DB PROPERTIES
+
+spring:
+  couchbase:
+    bucket:
+      name: product
+      password: password
+    bootstrap-hosts: localhost
+
+
+# SSL PROPERTIES
+
+server:
+  port: 8443
+#  ssl:
+#    key-store-type: PKCS12
+#    key-store: classpath:store/keystore.p12
+#    key-password: password
+#    key-alias: tomcat
+
+
+# LOGGING PROPERTIES
+logging:
+  level:
+    com:
+      example: debug
+    org:
+      springframework:
+        security: debug
+
+
+# DEV USEFUL PROPERTIES
+
+security:
+  errors:
+    disclose: true
+
+
+# SECURITY JWT SECRET KEY
+
+jwt:
+  expiry: 360000000
+  secret-key: >
+    Caux9t8OYWiN58CvTgi0EQ53DJqRo2Ha8Bq2IAjWUdKmVRO9cJSb4QC7zdpFobC2
+    1NVaE6ka0RoV8RBH0VihhViWkdjwcKiPcWBjxhI7cCdfMaPNoLQQ0aEMYARIBvqu
+    iEgi/TFcMH5iCThtQwDwhhM5kknyaj73lCj2xSTpjEXRTWtGsdEq58gqkY0IKSqv
+    4vh0Chj/QdWP0r6MwghsdnAg6Jn/rR9Od+u3nlaVufufvJvF41PBmFHbeZ8uWuV6
+    Hlc1/7yx7+1SnZl1VDb/vCYvn78B3ft9/8sL8+/+lk5Y4cBYtMOVK2OoWx+gHUNy
+    Rti4AMcu7hpo43PE/h0QV8vuGUyWJaom4Tlodf+oBzpTSbaTV7VKmX1VTDCsKY8+
+    qOciiHNgZhfN7HI3WBWCypviNpc+bgflp2OtSl0lo/UpdctXuH5yEnemwJdKVf4B
+    rGjFMVmZB3PQ9pq9jgII/HwueRrutfNpRDoqakSo+S31ZJ0AJP6/f/32K9eDgMy0
+    jSEqIwikEiywaAsIY1JUY9RAX98rhgUCD0RsBqMQu8kcY8l9aMvGocJPci0Dkhx6
+    J8MUubRLyDQhUh9M9EKZ1HsMeZvMRdikNibFd8014Kf8jzbLOldkBt8ci2G8zuqN
+    mTqdn7saaGEnvvoDP0WhHj2l4VAR4puAXATfaIMGk0lFrtYeJKLFVhfiDSr2q9iC
+    NJOF5gBu20bDqLL860NQYLqHQgsmgCvFXGQ30fJrKR8JN9Cd/Glz3NPLS0JlJ+XR
+    dXyCgioPEsTL/QEv7uqT/zbXG8fUv/NTYSKpDXTbfMsttqacVFebvTMXpPKT0Akq
+    R9VTDQ96Nj7+B9N89sKD8SsHuNf3tPtUxoGk4xeDvLVJ7YqsF3SV2Kl/AQ+DBqRJ
+    Miid8HeQCc9olmQ7SuLEKQrhAqMOve8ogcKxoUrNqhYaaA3HzS/W9A6zmFsNejw8
+    ocQ2BXzpq1WJQzpjJDWp2aoFkZIugl6r7mqQtLBlbdYsANlIcJMU4SeaWVznXhJ/
+    fucjSoaU0gdls8mLTbnK6fpVdcDCIooH7X+n21phO8PJc4RGz0CnI8lNMoXt9qrt
+    /8l0YJgxnIUKGjHdgR0n7ElZpJJWjAmvP/vr/4+FOP/xJKpqcUAjIsWXf3soalkZ
+    JcxHnwiaaQToFStoJJiL+BkNAhOpZkr1HSRHROYoROp9u97YpayLgvA5fu7eADE2
+    XSL6v8ETAJsgBo0zjEmfW9YKOOzHRDDnulg9VfoDaIskCidr0x17VFFBpRPJg9QR
+    WB8xT/PJrkKr1z5YEosWF9KYJCPzZ2yFeP3farH6vj0M87+AIG0kSfndT3avr2jh
+    OaxLGEaCvF2e5RXGfTafrA==
